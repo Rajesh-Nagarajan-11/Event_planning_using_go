@@ -321,11 +321,11 @@ func main() {
  fmt.println(myarr) <-- prints whole array 
  fmt.println(myarr[0]) <--prints specific value using index 
  can able to use slice same as python list -> myarr[1:3]
- *** Dynamic Array ***
+ # Dynamic Array 
  using append built in function 
  prices:=[] int {15,13}
  fmt.println(prices)
- prices= append(prices,25}
+ prices= append(prices,25)
  fmt.println(prices)
  
  Example :
@@ -344,7 +344,7 @@ func main() {
 add two array in append ( use ... special syntax)
 names =append(names,newnames...)
  
-*** Map ***
+# Map
 
 package main
 
@@ -360,7 +360,7 @@ func main() {
  you can also use built in function -> delete()
  delete(x,"Azure") <-- it will delete azure key value pair from x map
  
-*** Concurrency ***
+# Concurrency 
 Concurrency in Go (often called Golang) refers to the ability of a program to handle multiple tasks at once, making efficient use of system resources like CPU and memory.
 
 In Go, when you want to run a function in the background, you use a goroutine.
@@ -409,7 +409,7 @@ func main() {
 
 }
 
-*** Go REST API (Gin Framework ) ***
+# Go REST API (Gin Framework ) 
 package main
 
 import (
